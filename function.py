@@ -8,3 +8,13 @@ def area_rect(x, y):
 print(hello_world())
 # printing area of rectangle
 print(area_rect(4, 5))
+
+# defining global variable.
+peri = 0;
+def peri_rect(l, b):
+   peri = 2 * (l + b);
+   print "Perimeter inside function : ", peri
+   return peri
+# calling peri_rect() function
+peri_rect( 2, 3);
+print "Perimeter outside the function : ", peri
